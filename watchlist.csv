@@ -1,0 +1,41 @@
+id,category,name,must_include,exclude,resale_gbp,size_band,ebay_fee_pct,notes
+ps5-slim-disc,console,PS5 Slim Disc,ps5|playstation 5;disc,digital;pro;controller only;dualsense,,large,,
+ps5-slim-digital,console,PS5 Slim Digital,ps5|playstation 5;digital,disc edition;pro;controller only;dualsense,,large,,
+ps5-pro,console,PS5 Pro,ps5|playstation 5;pro,controller only;dualsense;portal,,large,,
+ps-portal,console,PlayStation Portal,playstation portal|ps portal,,,medium,,
+xbox-series-x,console,Xbox Series X,xbox;series x,series s,,large,,
+xbox-series-s,console,Xbox Series S,xbox;series s,series x,,large,,
+switch-2,console,Nintendo Switch 2,switch 2,oled;lite,,medium,,
+switch-oled,console,Nintendo Switch OLED,switch;oled,switch 2;lite,,medium,,
+steam-deck-oled,console,Steam Deck OLED,steam deck;oled,,,medium,,
+quest-3,console,Meta Quest 3 512GB,quest 3;512,quest 3s,,large,,
+quest-3s,console,Meta Quest 3S,quest 3s,,,large,,
+iphone-16-128,phone,iPhone 16 128GB,iphone 16;128,pro;plus;max;16e;case;screen protector,,small,,Check iCloud/network lock
+iphone-16-pro-256,phone,iPhone 16 Pro 256GB,iphone 16 pro;256,max;case;screen protector,,small,,Check iCloud/network lock
+iphone-17-256,phone,iPhone 17 256GB,iphone 17;256,pro;air;max;case;screen protector,,small,,Check iCloud/network lock
+iphone-17-pro-256,phone,iPhone 17 Pro 256GB,iphone 17 pro;256,max;case;screen protector,,small,,Check iCloud/network lock
+galaxy-s25-128,phone,Samsung Galaxy S25 128GB,galaxy s25|s25;128,ultra;plus;edge;fe;case,,small,,Check network lock
+galaxy-s25-ultra-256,phone,Samsung Galaxy S25 Ultra 256GB,s25 ultra;256,case;screen protector,,small,,Check network lock
+ipad-air-m3,tablet,iPad Air M3 11in 128GB,ipad air;m3,case;keyboard;pencil,,medium,,
+ipad-pro-m4,tablet,iPad Pro M4 11in 256GB,ipad pro;m4,case;keyboard;pencil,,medium,,
+airpods-pro-2,audio,AirPods Pro 2,airpods pro 2|airpods pro (2nd,case only;left;right;replacement,,small,,Fakes common - check seller
+airpods-pro-3,audio,AirPods Pro 3,airpods pro 3,case only;left;right;replacement,,small,,Fakes common - check seller
+airpods-4,audio,AirPods 4,airpods 4,case only;left;right;replacement,,small,,
+watch-ultra-2,watch,Apple Watch Ultra 2,watch ultra 2,strap only;band only;case only;screen protector,,small,,
+macbook-air-m4-13,laptop,MacBook Air M4 13in 256GB,macbook air;m4;13,case;sleeve;15,,medium,,
+dewalt-dcd796-body,tool,DeWalt DCD796 combi drill (body only),dcd796;body only|bare|naked|tool only|body|dcd796n,kit;2 x;2x;batteries,,medium,,
+dewalt-dcd796-kit,tool,DeWalt DCD796 combi drill kit (2 x batteries),dcd796;2 x|2x|kit;battery|batteries|ah,body only;bare;naked;dcd796n,,large,,Check battery Ah matches
+dewalt-dcf887-body,tool,DeWalt DCF887 impact driver (body only),dcf887;body only|bare|naked|tool only|body|dcf887n,kit;2 x;2x;batteries,,medium,,
+dewalt-dck266-kit,tool,DeWalt DCK266 twin pack kit,dck266,body only;bare,,xlarge,,Check battery Ah matches
+dewalt-dcs355-body,tool,DeWalt DCS355 multi-tool (body only),dcs355;body only|bare|naked|tool only|body|dcs355n,kit;2 x;2x;batteries,,medium,,
+dewalt-dcb184,tool,DeWalt DCB184 5Ah battery,dcb184,twin;2 x;2x;charger,,small,,Fake batteries common
+makita-dhp485-body,tool,Makita DHP485 combi drill (body only),dhp485;body only|bare|naked|tool only|body|dhp485z,kit;2 x;2x;batteries,,medium,,
+makita-dtd153-body,tool,Makita DTD153 impact driver (body only),dtd153;body only|bare|naked|tool only|body|dtd153z,kit;2 x;2x;batteries,,medium,,
+makita-dlx2283-kit,tool,Makita DLX2283 twin kit,dlx2283,body only;bare,,xlarge,,
+makita-dga504-body,tool,Makita DGA504 grinder (body only),dga504;body only|bare|naked|tool only|body|dga504z,kit;2 x;2x;batteries,,medium,,
+makita-bl1850b,tool,Makita BL1850B 5Ah battery,bl1850b,twin;2 x;2x;charger,,small,,Fake batteries common
+milwaukee-fpd3-body,tool,Milwaukee M18 FPD3 combi drill (body only),fpd3;body only|bare|naked|tool only|body|-0,kit;2 x;2x;batteries,,medium,,
+milwaukee-fid3-body,tool,Milwaukee M18 FID3 impact driver (body only),fid3;body only|bare|naked|tool only|body|-0,kit;2 x;2x;batteries,,medium,,
+milwaukee-m18b5,tool,Milwaukee M18B5 5Ah battery,m18b5,twin;2 x;2x;charger,,small,,Fake batteries common
+bosch-gsb18v55-body,tool,Bosch GSB 18V-55 combi (body only),gsb 18v-55|gsb18v-55;body only|bare|naked|tool only|body|solo,kit;2 x;2x;batteries,,medium,,
+bosch-gdx18v200-body,tool,Bosch GDX 18V-200 impact (body only),gdx 18v-200|gdx18v-200;body only|bare|naked|tool only|body|solo,kit;2 x;2x;batteries,,medium,,

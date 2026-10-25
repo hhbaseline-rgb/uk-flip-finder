@@ -1,0 +1,56 @@
+# ============================================================
+#  UK FLIP FINDER - SETTINGS
+#  Every money figure here comes off the profit before you see
+#  an alert. Change any number, commit, and the next run uses it.
+# ============================================================
+
+# When should the bot alert you?
+thresholds:
+  min_profit_gbp: 20        # true profit after every cost
+  min_return_pct: 20        # profit as a % of the money you spend buying it
+
+# Costs that apply to every deal
+costs:
+  collection_cost_gbp: 0        # fuel/time if you collect locally (e.g. 5)
+  default_delivery_to_you_gbp: 0  # used when a deal doesn't state delivery
+  returns_allowance_pct: 4      # held back to cover the odd return
+  promoted_listing_pct: 0       # eBay promoted listing rate if you boost items
+  cashback_pct: 0               # TopCashback/Quidco on retailer buys (bonus)
+
+  # Anything selling over this value is sent tracked + signed-for
+  tracked_signed_over_gbp: 100
+  tracked_signed_extra_gbp: 2.50
+
+  # Anything selling over this value gets extra insurance cover
+  insurance_over_gbp: 300
+  insurance_extra_gbp: 4.00
+
+# Selling fees - CONFIRM these against eBay's business seller fee page
+# and Vinted Pro before going live. Per-item overrides go in watchlist.csv.
+fees:
+  ebay_default_pct: 12.8
+  ebay_per_order_gbp: 0.40
+  vinted_pct: 5
+  vinted_buyer_pays_postage: true   # on Vinted the buyer normally pays postage
+
+# Postage + packaging per parcel size. STARTING ESTIMATES -
+# replace with your own courier quotes (Royal Mail, Evri, Parcel2Go etc).
+size_bands:
+  small:   {postage: 3.50, packaging: 0.80}   # earbuds, phone, battery pack
+  medium:  {postage: 4.50, packaging: 1.50}   # drill body, tablet, Switch
+  large:   {postage: 7.50, packaging: 3.00}   # console, tool kit in case
+  xlarge:  {postage: 12.00, packaging: 4.00}  # big combi kits, bundles
+
+# Scam / risk checks
+risk:
+  too_cheap_pct: 60            # this far below resale = likely scam, flagged
+  min_seller_feedback: 10      # eBay sellers below this get flagged
+  min_seller_positive_pct: 97
+
+# Where to look
+sources:
+  hotukdeals_feeds:
+    - https://www.hotukdeals.com/rss/hot
+    - https://www.hotukdeals.com/rss/new
+  ebay_new_listings: true
+  ebay_results_per_item: 20
